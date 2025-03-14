@@ -11,6 +11,9 @@ importers:
       '@libsql/client':
         specifier: ^0.14.0
         version: 0.14.0
+      '@lucide/svelte':
+        specifier: ^0.482.0
+        version: 0.482.0(svelte@5.22.4)
       drizzle-orm:
         specifier: ^0.40.0
         version: 0.40.0(@cloudflare/workers-types@4.20250303.0)(@libsql/client@0.14.0)(gel@2.0.1)
@@ -1207,6 +1210,11 @@ packages:
     resolution: {integrity: sha512-7pJzOWzPm6oJUxml+PCDRzYQ4A1hTMHAciTAHfFK4fkbDZX33nWPVG7Y3vqdKtslcwAzwmrNDc6sXy2nwWnbiw==}
     cpu: [x64]
     os: [win32]
+
+  '@lucide/svelte@0.482.0':
+    resolution: {integrity: sha512-n2ycHU9cNcleRDwwpEHBJ6pYzVhHIaL3a+9dQa8kns9hB2g05bY+v2p2KP8v0pZwtNhYTHk/F2o2uZ1bVtQGhw==}
+    peerDependencies:
+      svelte: ^5
 
   '@mdx-js/react@3.1.0':
     resolution: {integrity: sha512-QjHtSaoameoalGnKDT3FoIl4+9RwyTmo9ZJGBdLOks/YOiWHoRDI3PUwEzOE7kEmGcV3AFcp9K6dYu9rEuKLAQ==}
@@ -4541,6 +4549,10 @@ snapshots:
 
   '@libsql/win32-x64-msvc@0.4.7':
     optional: true
+
+  '@lucide/svelte@0.482.0(svelte@5.22.4)':
+    dependencies:
+      svelte: 5.22.4
 
   '@mdx-js/react@3.1.0(@types/react@19.0.10)(react@19.0.0)':
     dependencies:
